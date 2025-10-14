@@ -24,8 +24,7 @@ p {
     <h1>Bienvenue sur le premier site web de Franck Loko !</h1>
     <p>Je m'appelle Franck Loko, je vis au Ghana et j'apprends le développement web.</p>
     <p>Ceci est ma première page HTML 🎉</p>
-  </body><!DOCTYPE html>
-<html lang="fr">
+  </body>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,139 +41,7 @@ p {
       background-color: #007bff;
       color: white;
       border: none;
-      padding: 12px 24px;
-      font-size: 18px;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: 0.3s;
-    }
-
-    button:hover {
-      background-color: #0056b3;
-    }
-  </style>
-</head>
-<body><!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avant la dernière lettre</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            position: relative;
-            height: 300px;
-            background-image: url('couverture.jpg'); /* Remplace par le nom de ton fichier image */
-            background-size: cover;
-            background-position: center;
-            color: white;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
-            overflow: hidden;
-        }
-
-        header h1 {
-            font-size: 2.5em;
-            margin: 0;
-            z-index: 2;
-            position: relative;
-        }
-
-        /* Effet pluie */
-        .rain {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            overflow: hidden;
-            z-index: 1;
-        }
-
-        .drop {
-            position: absolute;
-            width: 2px;
-            height: 15px;
-            background: rgba(255,255,255,0.6);
-            animation: fall linear infinite;
-        }
-
-        @keyframes fall {
-            0% { transform: translateY(-20px); opacity: 0; }
-            30% { opacity: 1; }
-            100% { transform: translateY(300px); opacity: 0; }
-        }
-
-        main {
-            max-width: 800px;
-            margin: -50px auto 30px;
-            padding: 20px;
-            background-color: rgba(255,255,255,0.95);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            border-radius: 10px;
-        }
-
-        h2 {
-            margin-top: 0;
-        }
-
-        p, li {
-            line-height: 1.6;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            padding: 20px;
-            font-size: 0.9em;
-            color: #666;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Avant la dernière lettre</h1>
-        <div class="rain"></div>
-    </header>
-    <main>
-        <h2>Résumé</h2>
-        <p>Eliott et Aida se rencontrent un soir de pluie dans un petit café d’Accra. Ce qui devait être un hasard devient une histoire d’amour aussi belle que fragile. À travers la douceur des mots et la douleur du silence, <strong>Avant la dernière lettre</strong> raconte l’amour qui persiste au-delà de l’absence.</p>
-        
-        <h2>Thèmes</h2>
-        <ul>
-            <li>Amour et rencontres inattendues</li>
-            <li>Le pouvoir des mots et du silence</li>
-            <li>Fragilité et persistance des sentiments</li>
-        </ul>
-    </main>
-    <footer>
-        &copy; 2025 Franck Loko
-    </footer>
-
-    <script>
-        // Génération des gouttes de pluie
-        const rain = document.querySelector('.rain');
-        const numberOfDrops = 100;
-
-        for(let i = 0; i < numberOfDrops; i++) {
-            const drop = document.createElement('div');
-            drop.classList.add('drop');
-            drop.style.left = Math.random() * 100 + '%';
-            drop.style.animationDuration = 0.5 + Math.random() * 1 + 's';
-            drop.style.animationDelay = Math.random() * 2 + 's';
-            drop.style.height = 10 + Math.random() * 15 + 'px';
-            rain.appendChild(drop);
+      padd
         }
     </script>
 </body>
@@ -199,4 +66,5 @@ p {
 </a>
 
 </html>
+
 
