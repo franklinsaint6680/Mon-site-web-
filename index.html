@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Franck Loko - Site Officiel</title>
+  <style>
+    /* ----- STYLE GLOBAL ----- */
+    body {
+      margin: 0;
+      font-family: 'Poppins', Arial, sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #0078ff;
+      color: white;
+      padding: 15px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffe600;
+    }
+
+    /* ----- SECTION PRINCIPALE ----- */
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(120deg, #e3f2fd, #bbdefb);
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      color: #0078ff;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #444;
+      margin-bottom: 30px;
+    }
+
+    .hero a {
+      background-color: #0078ff;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .hero a:hover {
+      background-color: #005ecc;
+    }
+
+    /* ----- SECTIONS ----- */
+    section {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      color: #0078ff;
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background-color: #0078ff;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 60px;
+    }
+
+    footer a {
+      color: #ffe600;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* ----- RESPONSIVE ----- */
+    @media (max-width: 600px) {
+      nav {
+        gap: 20px;
+      }
+
+      .hero h1 {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="livres.html">Livres</a>
+      <a href="contact.html">Contact</a>
+      <a href="apropos.html">À propos</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Bienvenue sur le site officiel de Franck Loko 🌟</h1>
+    <p>Développeur web en apprentissage, créateur et passionné de technologie.</p>
+    <a href="https://www.facebook.com/share/1P3DTg5gfV/" target="_blank">📘 Suis-moi sur Facebook</a>
+  </div>
+
+  <section>
+    <h2>Mon livre 📖</h2>
+    <p>Découvrez mon œuvre : <strong>« Avant la dernière lettre »</strong>.</p>
+    <p><a href="livre.html" style="color:#0078ff; font-weight:bold;">Lire le livre ici</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Franck Loko — Tous droits réservés</p>
+    <p><a href="mailto:franckloko@example.com">Me contacter</a></p>
+  </footer>
+
+</body>
+</html>
